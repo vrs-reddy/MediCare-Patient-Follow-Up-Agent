@@ -1,0 +1,21 @@
+# API credentials
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+venv/
+.venv-1/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Confidential patient data
+patient_data.csv
+
+# VS Code settings
+.vscode/
