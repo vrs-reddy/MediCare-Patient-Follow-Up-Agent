@@ -38,23 +38,6 @@ This project demonstrates how Agentic AI can support proactive patient care and 
 - Interactive exploratory data visualisations.
 - Human-in-the-loop clinical decision support.
 
-🏗️ System Architecture
-
-flowchart TD
-    A[User Query] --> B[AI Patient Follow-up Agent]
-    B --> C[GPT-OSS 120B - Groq API]
-    C --> D{Tool Calling Required?}
-    D -->|Yes| E[Tool Execution Layer]
-    E --> F[Six Python Tools]
-    F --> G[Pandas Data Processing]
-    G --> H[Patient Dataset]
-    H --> G
-    G --> I[Structured Tool Results]
-    I --> C
-    D -->|No| J[Clinical Risk Assessment]
-    J --> K[Prioritised Follow-up Recommendations]
-    K --> L[Healthcare Professional Review]
-
 ⚙️ Technology Stack
 
 Technology| Purpose
