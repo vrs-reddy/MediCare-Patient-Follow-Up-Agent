@@ -1,0 +1,9 @@
+pandas
+numpy
+plotly
+groq
+python-dotenv
+pydantic
+jupyter
+ipykernel
+nbformat
